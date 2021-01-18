@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Metadata for Font Awesome free icons",
   "main": "index.js",
+  "module": "index.mjs",
   "scripts": {
     "postInstall": "node scripts/build.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node scripts/test.js && node scripts/test.mjs"
   },
   "repository": {
     "type": "git",
