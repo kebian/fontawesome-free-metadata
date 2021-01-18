@@ -1,6 +1,6 @@
 {
   "name": "@kebian/fontawesome-free-metadata",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Metadata for Font Awesome free icons",
   "main": "index.js",
   "module": "index.mjs",
@@ -12,6 +12,12 @@
     "type": "git",
     "url": "git+https://github.com/kebian/fontawesome-free-metadata.git"
   },
+  "files": [
+    "data/.gitkeep",
+    "scripts/*",
+    "index.js",
+    "index.mjs"
+  ],
   "keywords": [
     "Font",
     "Awesome",
