@@ -1,11 +1,11 @@
 {
   "name": "@kebian/fontawesome-free-metadata",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Metadata for Font Awesome free icons",
   "main": "index.js",
   "module": "index.mjs",
   "scripts": {
-    "postInstall": "node scripts/build.js",
+    "postinstall": "node scripts/build.js",
     "test": "node scripts/test.js && node scripts/test.mjs"
   },
   "repository": {
