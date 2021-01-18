@@ -1,11 +1,12 @@
 {
   "name": "@kebian/fontawesome-free-metadata",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Metadata for Font Awesome free icons",
   "main": "index.js",
   "module": "index.mjs",
   "scripts": {
     "postinstall": "node scripts/build.js",
+    "prepack": "node scripts/prepack.js",
     "test": "node scripts/test.js && node scripts/test.mjs"
   },
   "repository": {
@@ -34,5 +35,8 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
     "yaml": "^1.10.0"
+  },
+  "devDependencies": {
+    "json-beautify": "^1.1.1"
   }
 }
