@@ -15,7 +15,7 @@ for (const group of groups) {
     const js = `module.exports = ${metaData}\n`
     fs.writeFileSync(`data${path.sep}${group}.js`, js)
     indexJs += `module.exports.${group} = require('./${group}')\n`
-    indexMjs += `export { default as ${group}} from './${group}.js'\n`
+    indexMjs += `export { default as ${group} } from './${group}.js'\n`
 }
 
 fs.writeFileSync(`data${path.sep}index.js`, indexJs)
